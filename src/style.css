@@ -36,7 +36,8 @@
   margin: 0 auto;
 }
 
-.listNumbers, .listPoint {
+.listNumbers,
+.listPoint {
   background: #f5f4f7;
   padding: 25px;
   border-left: 8px solid #444;
@@ -44,6 +45,10 @@
   margin-left: 20px;
   margin-right: 20px;
   box-sizing: border-box;
+}
+
+.list-container:hover {
+  background-color: #9ca6bc;
 }
 
 .list-container {
@@ -73,6 +78,15 @@ hr.rounded {
   padding: 0 10px;
   color: #000;
   text-decoration: none;
+}
+
+.naw__link:hover {
+  background-color: #e1dfe4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.naw__link:active{
+  background-color: #bbb8be;
 }
 
 .naw__list {
@@ -135,12 +149,12 @@ hr.rounded {
 }
 
 .img-about {
+  object-fit: cover;
   display: block;
   margin: auto;
   padding-bottom: 20px;
-  height: 600px;
+  height: 300px;
   width: 959px;
-  align-content: center;
 }
 
 .text-formating {
