@@ -167,3 +167,11 @@ hr.rounded {
   text-align: left;
   font-weight: 450;
 }
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

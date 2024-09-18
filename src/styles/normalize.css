@@ -24,6 +24,27 @@ body {
 }
 
 
-/* @media all and (max-width: 550px) {
+@media all and (max-width: 550px) {
+  .hamburger {
+    display: block;
+  }
 
-} */
+  .naw__list {
+    flex-direction: column;
+    display: none;
+    top: 70px;
+    right: 0px;
+    background-color: #f5f4f7;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .naw__list.active {
+    display: flex;
+  }
+
+  .naw__item {
+    margin: 10px 0;
+  }
+}
